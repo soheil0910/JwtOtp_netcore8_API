@@ -1,0 +1,6 @@
+@JwtOtp_netcore8_T2_HostAddress = http://localhost:5064
+
+GET {{JwtOtp_netcore8_T2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
