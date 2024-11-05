@@ -31,6 +31,7 @@ namespace JwtOtp_netcore8_T2.Utility
                 audience: _config["Jwt:Audience"],
                 claims: claims,
                 expires: DateTime.Now.AddMinutes(int.Parse(_config["Jwt:ExpiresInMinutes"])),
+                //expires: DateTime.Now.AddDays(int.Parse(_config["Jwt:ExpiresInMinutes"])),
                 signingCredentials: creds);
 
             return new JwtSecurityTokenHandler().WriteToken(token);

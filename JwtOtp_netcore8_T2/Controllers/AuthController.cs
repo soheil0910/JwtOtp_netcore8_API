@@ -6,6 +6,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Reflection.Emit;
+using Microsoft.Extensions.DependencyInjection;
+using Newtonsoft.Json.Linq;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using JwtOtp_netcore8_T2.Models.PCN;
+using System.Text.Json;
 
 namespace JwtOtp_netcore8_T2.Controllers
 {
@@ -18,19 +23,27 @@ namespace JwtOtp_netcore8_T2.Controllers
 
 
 
+        //IServiceProvider _serviceProvider;
 
         private IRepositories _repositoriy;
-        //private static string _Token;
-        private readonly IConfiguration _config;
+        
+        //private readonly IConfiguration _config;
         private readonly TokenService _tokService;
-        private readonly IpAddressHelper _ipAddressHelper;
-        private ResponseModel _responseModel;
 
-        public AuthController(IConfiguration config, TokenService tokenService, IpAddressHelper ipAddressHelper, IRepositories repositori, ResponseModel responseModel)
+        private ResultApiDto _responseModel;
+
+        public AuthController(
+             TokenService tokenService,
+             IRepositories repositori,
+            ResultApiDto responseModel
+            //IConfiguration config,
+           //, IServiceProvider serviceProvider
+            )
         {
-            _config = config;
+            //_serviceProvider = serviceProvider;
+            //_config = config;
+            //_ipAddressHelper = ipAddressHelper;
             _tokService = tokenService;
-            _ipAddressHelper = ipAddressHelper;
             _repositoriy = repositori;
             _responseModel = responseModel;
         }
@@ -42,11 +55,12 @@ namespace JwtOtp_netcore8_T2.Controllers
         public ActionResult GetToken(Platform Platforms)
         {
 
+
             string TypePlatform = Platforms.ToString();
             var token = _tokService.GenerateToken(TypePlatform);
             _repositoriy.SaveToken(token, Platforms);
             var resalt = new JsonResult
-                (new ResponseModel
+                (new ResultApiDto
                 {
                     Status = true,
                     StatusNum = 200,
@@ -64,95 +78,14 @@ namespace JwtOtp_netcore8_T2.Controllers
 
 
         #region SendOTP
-        private static DateTime? TimeSms = null;
         [Authorize]
         [HttpPost("SendOTP")]
         public IActionResult SendOTP([FromBody] PhoneNumber number)
         {
-
-            _responseModel = _repositoriy.SetOtpCode(_responseModel);
-
-
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", ""); ;
+            _responseModel = _repositoriy.SetOtpCode(_responseModel, number, token);
             return StatusCode(_responseModel.StatusNum, _responseModel);
 
-
-            #region ChekTimeOtpCode
-
-            if (TimeSms != null && TimeSms >= DateTime.Now)
-            {
-                var minestime = DateTime.Now - TimeSms;
-
-                if (TimeSms <= DateTime.Now)
-                {
-                    TimeSms = null;
-                }
-                var resaltt = new JsonResult
-                    (new ResponseModel
-                    {
-                        Status = false,
-                        StatusNum = 400,
-                        Title = "ناموفق",
-                        Description = "لطفا بعد از این زمان مجدد تلاش فرمایید  ما سرور را از سر راه نیاورده ایم ",
-                        value = minestime?.ToString("'m'm 's's'")
-
-                    });
-
-                return resaltt;
-            }
-            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", ""); ;
-            #endregion
-
-
-
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState.ErrorCount);
-            }
-            Random OtpCodeCreate = new Random();
-            var _OtpCode = OtpCodeCreate.Next(10000, 99999);
-            var IpAddress = _ipAddressHelper.GetClientIpAddress();
-
-            Users users = new Users()
-            {
-                IP = IpAddress,
-                OtpCode = _OtpCode,
-                PhoneNumb = number.PhoneNumbers,
-
-
-            };
-
-
-            if (!_repositoriy.saveUsers(users, token))
-            {
-                return StatusCode(500, "مشکل ای از سمت سرور رخ داده");
-
-            }
-
-
-
-
-
-            TimeSms = DateTime.Now.AddMinutes(2);
-            //return Ok(TimeSms.Value);
-
-
-
-
-
-
-            _responseModel.StatusNum = 200;
-            _responseModel.Status = true;
-            _responseModel.Title = "موفق";
-            _responseModel.Description = "کد برای شما ارسال شد اعتبار 2 دقیقه! ";
-            _responseModel.value = _OtpCode;
-            return Ok(_responseModel);
-
-
-
-
-
-            //return Ok("Your Ip:" + IpAddress + "\nCode Sms:" + _OtpCode);
-            //return Ok(_OtpCode);
         }
         #endregion
 
@@ -169,7 +102,7 @@ namespace JwtOtp_netcore8_T2.Controllers
             {
                 _repositoriy.RemoveUser_Otp(user);
                 var resaltok = new JsonResult
-                    (new ResponseModel
+                    (new ResultApiDto
                     {
                         Status = true,
                         StatusNum = 200,
@@ -180,7 +113,7 @@ namespace JwtOtp_netcore8_T2.Controllers
                 return resaltok;
             }
             var resalt = new JsonResult
-    (new ResponseModel
+    (new ResultApiDto
     {
         Status = false,
         StatusNum = 500,
@@ -199,9 +132,56 @@ namespace JwtOtp_netcore8_T2.Controllers
         #endregion
 
 
+        #region serch
+
+        [HttpPost("serch")]
+        public ActionResult serch([FromBody] string Neighborh)
+        {
+            _responseModel = _repositoriy.serch(_responseModel, Neighborh);
+            return StatusCode(_responseModel.StatusNum, _responseModel);
+
+        }
+
+
+        #endregion
+
+        #region Get DataShahr 
+
+        [HttpGet("GetProvince")]
+        public IActionResult GetProvince()
+        {
+
+            _responseModel = _repositoriy.GetProvince(_responseModel);
+            return StatusCode(_responseModel.StatusNum, _responseModel);
+
+           
+        }
+
+        [HttpGet("GetGetCity")]
+        public IActionResult GetGetCity(int provinceId)
+        {
+
+            _responseModel = _repositoriy.GetCity(_responseModel, provinceId);
+            return StatusCode(_responseModel.StatusNum, _responseModel);
+
+           
+        }
+
+        [HttpGet("GetNeighborhood")]
+        public IActionResult GetNeighborhood(int CityId)
+        {
+            _responseModel = _repositoriy.GetNeighborhood(_responseModel, CityId);
+            return StatusCode(_responseModel.StatusNum, _responseModel);
+
+
+        }
+
+
+        #endregion
 
 
 
 
+       
     }
 }
