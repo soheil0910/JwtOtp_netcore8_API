@@ -1,6 +1,6 @@
 ﻿namespace JwtOtp_netcore8_T2.Models
 {
-    public class ResponseModel
+    public class ResultApiDto
     {
 
 

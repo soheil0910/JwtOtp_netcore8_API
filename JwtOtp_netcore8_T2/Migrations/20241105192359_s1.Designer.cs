@@ -3,6 +3,7 @@ using JwtOtp_netcore8_T2.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JwtOtp_netcore8_T2.Migrations
 {
     [DbContext(typeof(JwtOtpContext))]
-    partial class JwtOtpContextModelSnapshot : ModelSnapshot
+    [Migration("20241105192359_s1")]
+    partial class s1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

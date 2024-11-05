@@ -1,0 +1,694 @@
+[
+  {
+    "title": "آب جوار",
+    "description": null
+  },
+  {
+    "title": "آبیاری",
+    "description": "سیاحتگر، سرباز، ایثارگران، اصلاح نژاد، اعتمادی، بلوار امیرکبیر"
+  },
+  {
+    "title": "آرامستان دارالرحمه",
+    "description": null
+  },
+  {
+    "title": "ابونصر",
+    "description": "لاله، طلاب، ریاستی، فیض، سرداران، فضیلت، پاییزان"
+  },
+  {
+    "title": "ابیوردی",
+    "description": "چمران، چوگیا، دانشجو"
+  },
+  {
+    "title": "احمدآباد",
+    "description": "فرهنگیان"
+  },
+  {
+    "title": "احمدی",
+    "description": null
+  },
+  {
+    "title": "ارم",
+    "description": "نارون، خاکشناسی، دانشگاه، نشاط، چنچنه، فردوسی، دانشجو، سروناز"
+  },
+  {
+    "title": "اسحاق بیگ",
+    "description": null
+  },
+  {
+    "title": "اصلاح‌نژاد",
+    "description": "سیاحتگر، لاله، قدمگاه، آبیاری، ایثارگران، شمس تبریزی، اعتمادی"
+  },
+  {
+    "title": "اطلسی",
+    "description": "هجرت، جاوید، سمیه"
+  },
+  {
+    "title": "امام حسین",
+    "description": null
+  },
+  {
+    "title": "بازار",
+    "description": null
+  },
+  {
+    "title": "باغ تخت",
+    "description": "سمیه، ابریشمی"
+  },
+  {
+    "title": "بالا کفت",
+    "description": "آستانه"
+  },
+  {
+    "title": "بریجستون",
+    "description": "بلوار فرصت شیرازی، بلوار مدرس، مینو، مطهر"
+  },
+  {
+    "title": "بعثت",
+    "description": "سرباز، شبان، خلدبرین، بلوار استقلال"
+  },
+  {
+    "title": "بنکداران",
+    "description": null
+  },
+  {
+    "title": "پارک آزادی",
+    "description": "ابریشمی، سمیه، فردوسی، اطلسی، خاکشناسی، زند، نشاط، جهاد سازندگی"
+  },
+  {
+    "title": "پانصد دستگاه (بلوار رحمت)",
+    "description": "لشکری"
+  },
+  {
+    "title": "پای کتا",
+    "description": null
+  },
+  {
+    "title": "پردیس ارم",
+    "description": null
+  },
+  {
+    "title": "پودنک",
+    "description": "فاضل، بلوار مدرس، مطهر، شریف آباد، بلوار فرصت شیرازی، بلوار سرداران، روزی طلب"
+  },
+  {
+    "title": "تاچارا",
+    "description": "بلوار بهشت، گلدشت محمدی، چمران، شهامت، شهرک باهنر، معالی آباد"
+  },
+  {
+    "title": "تپه تلویزیون",
+    "description": "ابریشمی"
+  },
+  {
+    "title": "تحولی",
+    "description": "لاله"
+  },
+  {
+    "title": "ترکان",
+    "description": null
+  },
+  {
+    "title": "ترمینال باربری",
+    "description": "صنعتگر، اخلاق، بلوار پاسارگاد، میدان پارسه"
+  },
+  {
+    "title": "تل حسین‌آباد",
+    "description": null
+  },
+  {
+    "title": "تلخ داش",
+    "description": null
+  },
+  {
+    "title": "تندگویان",
+    "description": null
+  },
+  {
+    "title": "جانبازان",
+    "description": null
+  },
+  {
+    "title": "جمهوری",
+    "description": "ابریشمی، کوهسار، کوهستان، نارون"
+  },
+  {
+    "title": "جوادیه",
+    "description": "لاله"
+  },
+  {
+    "title": "چغا",
+    "description": null
+  },
+  {
+    "title": "چنچنه",
+    "description": "خاکشناسی، نارون، ابریشمی، ارم"
+  },
+  {
+    "title": "چو گیاه",
+    "description": "چوگیا، فرزانگان"
+  },
+  {
+    "title": "حافظیه",
+    "description": "بلوار گلستان، اطلسی"
+  },
+  {
+    "title": "حسین‌آباد",
+    "description": null
+  },
+  {
+    "title": "خلدبرین",
+    "description": "بهشتی، مشیر غربی"
+  },
+  {
+    "title": "خلیلی",
+    "description": "قصردشت، عفیف آباد"
+  },
+  {
+    "title": "دانشگاه شهید باهنر",
+    "description": null
+  },
+  {
+    "title": "دباغ خانه",
+    "description": null
+  },
+  {
+    "title": "درکی",
+    "description": "سیاحتگر، آفتاب"
+  },
+  {
+    "title": "دروازه اصفهان",
+    "description": null
+  },
+  {
+    "title": "دروازه کازرون",
+    "description": "وصال"
+  },
+  {
+    "title": "دست خضر",
+    "description": null
+  },
+  {
+    "title": "دشت چنار",
+    "description": null
+  },
+  {
+    "title": "دوکوهک",
+    "description": null
+  },
+  {
+    "title": "ده پیاله",
+    "description": null
+  },
+  {
+    "title": "دینکان",
+    "description": null
+  },
+  {
+    "title": "رحمت‌آباد",
+    "description": "قصردشت، قصرالدشت"
+  },
+  {
+    "title": "رضوان",
+    "description": "شهید رضایی"
+  },
+  {
+    "title": "رکن‌آباد",
+    "description": null
+  },
+  {
+    "title": "ریشمک",
+    "description": "کلاهدوز، صنعتگر، سرباز، رسالت، صاحب الامر، بلوار امیرکبیر، آبیاری، آفتاب"
+  },
+  {
+    "title": "زرگری",
+    "description": "ستارخان"
+  },
+  {
+    "title": "زرهی",
+    "description": "بلوار پاسداران، قدوسی شرقی، بلوار استقلال، ریشمک، ستارخان"
+  },
+  {
+    "title": "زند",
+    "description": "فردوسی، رودکی، نشاط"
+  },
+  {
+    "title": "زیباشهر",
+    "description": null
+  },
+  {
+    "title": "سامان",
+    "description": "میانرود"
+  },
+  {
+    "title": "سایت اداری",
+    "description": null
+  },
+  {
+    "title": "ستارخان",
+    "description": "ولیعصر، بعثت، زرگری، خلدبرین، انصار، قدوسی شرقی"
+  },
+  {
+    "title": "سجاد (بنی هاشم)",
+    "description": "بلوار دولت، معراج"
+  },
+  {
+    "title": "سر باغ",
+    "description": null
+  },
+  {
+    "title": "سعدیه",
+    "description": "شهرک سعدی"
+  },
+  {
+    "title": "سهل‌آباد",
+    "description": null
+  },
+  {
+    "title": "سیلو",
+    "description": "اطلسی"
+  },
+  {
+    "title": "سینما سعدی",
+    "description": "وصال، صورتگر، مشیر فاطمی، پوستچی، زند، اصلاح نژاد"
+  },
+  {
+    "title": "شاه قلی بیگی",
+    "description": "زاگرس، سراج، بلوار صلح، امام خمینی، میدان پارسه"
+  },
+  {
+    "title": "شریف‌آباد",
+    "description": "شریف اباد، فاضل، بلوار اتحاد، بلوار فرصت شیرازی"
+  },
+  {
+    "title": "شهرک آرین",
+    "description": null
+  },
+  {
+    "title": "شهرک امام حسین",
+    "description": null
+  },
+  {
+    "title": "شهرک امام رضا (فرگاز)",
+    "description": "نبی اکرم، دستغیب، بلوار صلح، سفیر جنوبی، فتح المبین، بلوار پاسارگاد"
+  },
+  {
+    "title": "شهرک امیر کبیر",
+    "description": "بلوار امیرکبیر، مهدیه"
+  },
+  {
+    "title": "شهرک ایثار",
+    "description": "فلاحی، کلاهدوز، مبعث، بلوار پاسداران"
+  },
+  {
+    "title": "شهرک باهنر",
+    "description": null
+  },
+  {
+    "title": "شهرک برق",
+    "description": null
+  },
+  {
+    "title": "شهرک بزین",
+    "description": null
+  },
+  {
+    "title": "شهرک بوتان",
+    "description": null
+  },
+  {
+    "title": "شهرک پردیس",
+    "description": "جوادیه"
+  },
+  {
+    "title": "شهرک پرواز",
+    "description": "آزادگان، بلوار سرداران، کلانتری، فیجانی"
+  },
+  {
+    "title": "شهرک جماران",
+    "description": null
+  },
+  {
+    "title": "شهرک حجت‌آباد",
+    "description": null
+  },
+  {
+    "title": "شهرک دارائی",
+    "description": null
+  },
+  {
+    "title": "شهرک سجادیه",
+    "description": null
+  },
+  {
+    "title": "شهرک سراج",
+    "description": "سفیر جنوبی، بلوار صلح، امام خمینی، بلوار پاسارگاد، بلوار زاگرس، پائیز، میدان مهارت"
+  },
+  {
+    "title": "شهرک سعدی",
+    "description": null
+  },
+  {
+    "title": "شهرک شهید بهشتی",
+    "description": "گلدشت حافظ، شهرک آرین"
+  },
+  {
+    "title": "شهرک شهید مطهری",
+    "description": "بلوار دولت"
+  },
+  {
+    "title": "شهرک عرفان",
+    "description": null
+  },
+  {
+    "title": "شهرک فجر",
+    "description": "دوکوهک"
+  },
+  {
+    "title": "شهرک قصر قمشه",
+    "description": null
+  },
+  {
+    "title": "شهرک کوشکک",
+    "description": "بلوار اتحاد"
+  },
+  {
+    "title": "شهرک گلستان",
+    "description": "رایحه، علامه امینی"
+  },
+  {
+    "title": "شهرک گلستان شمالی",
+    "description": "کوثر"
+  },
+  {
+    "title": "شهرک گلها",
+    "description": null
+  },
+  {
+    "title": "شهرک مخابرات",
+    "description": null
+  },
+  {
+    "title": "شهرک مدرس",
+    "description": null
+  },
+  {
+    "title": "شهرک مهدی‌آباد",
+    "description": null
+  },
+  {
+    "title": "شهرک مهرگان",
+    "description": null
+  },
+  {
+    "title": "شهرک نواب صفوی",
+    "description": "کوشک میدان"
+  },
+  {
+    "title": "شهرک نیروی انتظامی",
+    "description": "جانبازان"
+  },
+  {
+    "title": "شهرک والفجر",
+    "description": "سپیده، هویزه"
+  },
+  {
+    "title": "شهرک ولیعصر",
+    "description": "فدک، فضل آباد، بلوار هرمزگان"
+  },
+  {
+    "title": "شهید بهنام امیری",
+    "description": null
+  },
+  {
+    "title": "شیخ علی چوپان",
+    "description": null
+  },
+  {
+    "title": "شیشه‌گری",
+    "description": "بلوار رازی"
+  },
+  {
+    "title": "صاحب الزمان",
+    "description": null
+  },
+  {
+    "title": "صاحب دیوان",
+    "description": "بلوار مدرس"
+  },
+  {
+    "title": "عادل‌آباد (بلوار عدالت)",
+    "description": "بلوار صلح، روی سازی، میانرود، همایون، کاوه"
+  },
+  {
+    "title": "عفیف‌آباد",
+    "description": "ولیعصر، ستارخان، قصردشت، خلدبرین، خلیلی"
+  },
+  {
+    "title": "علی‌آباد",
+    "description": null
+  },
+  {
+    "title": "فرزانگان",
+    "description": "بلوار نارنج، میانرود"
+  },
+  {
+    "title": "فرهنگ شهر",
+    "description": "تاکستان، میدان معلم، اندیشه، پزشکان، معالی آباد، سجادیه دوم، ایمان جنوبی"
+  },
+  {
+    "title": "فرهنگیان",
+    "description": "رشد، فرزانگان، هویزه"
+  },
+  {
+    "title": "فضل‌آباد",
+    "description": "فدک"
+  },
+  {
+    "title": "فضیلت",
+    "description": "آزادگان، شهرک پرواز، باران، طلاب، بلوار مدرس، کاوه، مریم"
+  },
+  {
+    "title": "قدوسی شرقی",
+    "description": "کلاهدوز، فلاحی، صدا و سیما، زرهی، مبعث، جهان آرا، بلوار پاسداران، ستارخان"
+  },
+  {
+    "title": "قدوسی غربی",
+    "description": null
+  },
+  {
+    "title": "قصرالدشت",
+    "description": "قصردشت، چمران، نیایش، ابیوردی، زرگری، قم آباد، متین، دانش آموز"
+  },
+  {
+    "title": "قلعه شاهزاده بیگم",
+    "description": "شهرک ولیعصر"
+  },
+  {
+    "title": "قلعه قبله",
+    "description": null
+  },
+  {
+    "title": "قلعه نو",
+    "description": "بلوار اتحاد"
+  },
+  {
+    "title": "کاراندیش",
+    "description": "بلوار گلستان، سلمان فارسی، سفر، معزی"
+  },
+  {
+    "title": "کفترک",
+    "description": null
+  },
+  {
+    "title": "کوزه‌گری",
+    "description": null
+  },
+  {
+    "title": "کوی آزادی",
+    "description": null
+  },
+  {
+    "title": "کوی زهرا",
+    "description": "فدک، بلوار رازی، بلوار مدرس، شهرک ولیعصر، بلوار هرمزگان، فضل آباد، بلوار ایثار"
+  },
+  {
+    "title": "کوی فرهنگیان",
+    "description": "بلوار صلح، نبی اکرم، بیست متری امام خمینی، سفیر جنوبی"
+  },
+  {
+    "title": "کوی قضات",
+    "description": null
+  },
+  {
+    "title": "کوی ولیعصر",
+    "description": "شبان، سرباز"
+  },
+  {
+    "title": "کوی یاس",
+    "description": "میدان معلم"
+  },
+  {
+    "title": "کیان شهر",
+    "description": null
+  },
+  {
+    "title": "گلدشت",
+    "description": null
+  },
+  {
+    "title": "گلدشت حافظ",
+    "description": "هاتف"
+  },
+  {
+    "title": "گلدشت محمدی",
+    "description": null
+  },
+  {
+    "title": "گلدشت معالی‌آباد",
+    "description": "معالی آباد، دوستان، فرهنگ شهر، چمران، تاچارا، شهرک باهنر، خیابان دنا"
+  },
+  {
+    "title": "گلشن",
+    "description": "مطهری، کمیل، میدان معلم"
+  },
+  {
+    "title": "گلکوب",
+    "description": null
+  },
+  {
+    "title": "گود عربان",
+    "description": null
+  },
+  {
+    "title": "گویم",
+    "description": null
+  },
+  {
+    "title": "لاله",
+    "description": "فلکه فرودگاه"
+  },
+  {
+    "title": "لب آب",
+    "description": null
+  },
+  {
+    "title": "لشکری",
+    "description": null
+  },
+  {
+    "title": "ماه فیروزان",
+    "description": null
+  },
+  {
+    "title": "محراب",
+    "description": null
+  },
+  {
+    "title": "محله انجیر (کلبه)",
+    "description": "جهانگردی، بلوار گلستان، استاد شهریار، کسری، سلمان فارسی"
+  },
+  {
+    "title": "محله سر دزک",
+    "description": null
+  },
+  {
+    "title": "محله سنگ سیاه",
+    "description": null
+  },
+  {
+    "title": "محله طلاب (نیستان)",
+    "description": null
+  },
+  {
+    "title": "محمدیه",
+    "description": null
+  },
+  {
+    "title": "محمودیه",
+    "description": "چمران، نیایش"
+  },
+  {
+    "title": "مسلم",
+    "description": null
+  },
+  {
+    "title": "مشیر غربی",
+    "description": "بلوار استقلال، برق"
+  },
+  {
+    "title": "معالی‌آباد",
+    "description": null
+  },
+  {
+    "title": "مقر",
+    "description": null
+  },
+  {
+    "title": "ملاصدرا",
+    "description": "خلیلی، قصردشت، برق، رحمت آباد، نشاط، دانشجو"
+  },
+  {
+    "title": "منصورآباد",
+    "description": null
+  },
+  {
+    "title": "منطقه هوایی دوران",
+    "description": "محراب، بلوار مدرس، پودنک، بلوار فرصت شیرازی"
+  },
+  {
+    "title": "مهدی‌آباد",
+    "description": "قصردشت"
+  },
+  {
+    "title": "مهدیه",
+    "description": null
+  },
+  {
+    "title": "میانرود",
+    "description": "سامان، طلائیه، شهرک مدرس، فرزانگان، بلوار نارنج"
+  },
+  {
+    "title": "میدان شاه",
+    "description": null
+  },
+  {
+    "title": "نارنجستان",
+    "description": "شهرک سعدی"
+  },
+  {
+    "title": "نشاط",
+    "description": "پل باغ صفا، فردوسی"
+  },
+  {
+    "title": "نصرآباد",
+    "description": null
+  },
+  {
+    "title": "نیایش",
+    "description": "محمودیه"
+  },
+  {
+    "title": "وحدت (بلوار مدرس)",
+    "description": "بلوار مدرس، فضل آباد، پل غدیر"
+  },
+  {
+    "title": "وزیرآباد",
+    "description": null
+  },
+  {
+    "title": "وصال",
+    "description": "خیابان منوچهری"
+  },
+  {
+    "title": "ویلاشهر کیمیا",
+    "description": null
+  },
+  {
+    "title": "هفت تنان",
+    "description": "بلوار گلستان، استاد شهریار، قانعی"
+  },
+  {
+    "title": "هویزه",
+    "description": null
+  }
+]
